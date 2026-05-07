@@ -1,5 +1,5 @@
 """
-Voice Claude v5 — Push-to-talk + file upload + URL fetch + interrupt.
+Voice Rian v5 — Push-to-talk + file upload + URL fetch + interrupt.
 
 Uses gTTS + pygame for audio, native Anthropic PDF/vision support for files,
 and requests + BeautifulSoup for fetching web pages.
