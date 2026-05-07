@@ -6,7 +6,7 @@ and requests + BeautifulSoup for fetching web pages.
 
 Controls:
   - HOLD  `      : Record voice while held. Release to send.
-  - TAP   `      : Interrupt Claude mid-sentence.
+  - TAP   `      : Interrupt AI mid-sentence.
   - PRESS F12    : Open file picker. Queued for next message.
   - PRESS F11    : Open URL dialog. Fetches the page and queues it.
   - SAY  "goodbye" or press CTRL+C to exit.
@@ -388,7 +388,7 @@ def main():
     print("=" * 65)
     print("Voice Rian v5 - Push-to-Talk + File Upload + URL Fetch")
     print("  HOLD  `   : record")
-    print("  TAP   `   : interrupt Claude")
+    print("  TAP   `   : interrupt AI")
     print("  PRESS F12 : attach a file (PDF / image / text)")
     print("  PRESS F11 : fetch a web page by URL")
     print("  SAY  'goodbye' or CTRL+C to exit")
